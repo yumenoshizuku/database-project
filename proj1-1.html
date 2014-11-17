@@ -1,0 +1,390 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-us"><head>
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta name="ROBOTS" content="NOARCHIVE">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="No Title">
+<meta name="keywords" content="project">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Author" content="Luis Gravano">
+<meta name="Description" content="No Title">
+<meta name="KeyWords" content="project">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0"><title>cs4111: Project 1, Part 1</title>
+
+<link rel="stylesheet" type="text/css" href="../style.css"></head>
+<body>
+<h1 style="text-align: left;">COMS4111, Summer 2013 </h1>
+<h1 style="text-align: left;"><a name="Project_1_Part_1"></a>Project 1, Part 1</h1><h3>(worth 25% of overall Project 1 grade)</h3><br><p style="text-align: center;"><a href="#Overview_of_Project_1">Overview of Project 1</a> &nbsp;| &nbsp;<a href="#Project_1_Part_1">Project 1.1</a> &nbsp;| &nbsp;<a href="#What_you_need_to_do_for_Part_1">Things to do and Deadlines</a> &nbsp;| &nbsp;<a href="#Grading_for_Part_1">Grading</a> &nbsp;| &nbsp;<a href="#faq">FAQs</a></p>
+<h3><br></h3><h3>Summary of Deadlines</h3>
+<ul>
+<li><b>The next couple of days:</b> Find a
+team-mate.</li>
+<li><strong>Monday June 3 - Tuesday June 4</strong><b>:</b> Meet with a TA to discuss your application and
+design and get approval. <b> This is a required meeting.</b></li>
+<li><strong></strong><b>Thursday June 6, at the begining of class: </b>Submit a hard-copy with your final project description. </li>
+</ul>
+<blockquote>
+<p>Please check the <a href="../hwproj_info.html">Project Lateness Policy</a>
+<strong> </strong>carefully. For Part 1 of Project 1,
+you can <b>only</b> use project grace days for the final
+hard-copy submission (i.e., you <b>cannot</b> use grace
+days to delay your meeting with a TA).</p>
+</blockquote>
+<h3>Teams</h3>
+<p>You will carry out this project in <strong>teams of two</strong>.
+If you can't find a team-mate,
+please follow these steps:</p>
+<ol>
+<li>Post a <a href="https://courseworks.columbia.edu/" target="_top">message in the class discussion board</a>
+on CourseWorks asking for a team mate - <strong>the best way</strong>.
+In the message, you may want to provide a one-line description of what
+you may want to do (or, simply that you are open to ideas), the option
+you want to follow for Part 3 of this project (see below "Overview of
+Project 1"), or any other information you may find useful for your
+potential future teammate to know.&nbsp;</li>
+<li>Send email to a TA <span style="font-weight: bold;"></span><strong></strong>who may know another student without a
+team-mate.</li>
+</ol>
+<p>You do not need to notify us of your team composition.
+Instead,
+when you submit the first part of your project you should
+indicate in your submission your team composition.</p><p>Important notes:</p>
+
+<ul>
+<li>If you decide to drop the class, or are even remotely
+considering doing so, please be considerate and <strong>notify
+your team-mate immediately</strong>. </li>
+<li>On a related note, do not wait until the day before the
+deadline to start working on the project, just to realize then that
+your team-mate has dropped the class or moved to another planet. It is
+your responsibility to start working on the project and spot any
+problems with your team-mate early on.</li>
+<li>You might be able to do the project by yourself if you have
+a compelling reason, but we strongly discourage this.&nbsp;This is
+a large class, and we are relatively understaffed, so we simply cannot
+handle a large number of individual projects. If you want to do the
+project by yourself, you should get <strong>explicit permission </strong>
+by email from the instructor: in your email give a compelling reason
+why you want to work by yourself.
+<ul>
+<li>Not knowing other people in the class is <strong>not</strong>
+a compelling reason, and you should use the discussion board&nbsp;to help you find a team-mate. (See above.) </li>
+</ul>
+</li>
+<li>Please check the <font color="#000000"><a href="http://www.cs.columbia.edu/education/honesty" target="_top">policies and procedures regarding academic
+honesty</a> </font> for important information of what
+kinds of collaboration are allowed for projects.</li>
+</ul>
+<h3>Computer accounts</h3>
+<p>You will need a <strong>CS account</strong> to do
+the final parts of Project 1 (not for Part 1, though) but only if you
+decide to do the project on Unix. (You will not need a CS account if
+you do your project fully on your laptop.) Consequently, if you
+use Unix, then at least one of the team members should have a CS
+account. If neither of you have a CS account, please
+open one from <a href="https://www.cs.columbia.edu/%7Ecrf/accounts/cs.html" target="_top">https://www.cs.columbia.edu/~crf/accounts/cs.html</a>.
+Choose the appropriate "student" category as the "account type." There
+is a $50 charge to open a CS account. Please refer to <a href="http://www.cs.columbia.edu/%7Ecrf/" target="_top">CRF's
+homepage</a> for
+details on infrastructure and policies of the CS department.</p>
+<h3><a name="Overview_of_Project_1"></a>Overview of Project 1</h3>
+<p>In Project 1, you will build a substantial real-world database
+application of your choice. You will do the conceptual design of
+the database on paper <strong>in Part 1,</strong> and then
+you will
+create an actual database on Oracle <strong>in Part 2</strong>.&nbsp;
+<b>Part 3
+</b>requires some explanation, because you will have two options
+on how to complete it: <b>(3.a) Web Front-End Option </b>or
+<b>(3.b) Expanded-Design Option</b>: </p>
+<ul>
+<li><b>Option 3.a:</b> If you follow the <b>Web
+Front-End Option</b> (<b><font color="#ff0000">which
+is the most fun option!</font></b>) for Part 3 of the
+project, you will write an application (in PHP or Java: your choice)
+that manipulates the database through
+updates and queries, through a simple web front-end.</li>
+<li><b>Option 3.b:</b> If, instead, you decide to
+follow the <b> Expanded-Design Option </b>for Part 3 of
+the project, you will substantially expand your database design from
+Part 1 (see guidelines below), without having to develop a web
+front-end and hence with no programming needed. You will also have to
+incorporate this expanded design into your Oracle database of Part 2.</li>
+</ul>
+<p>Overall, Parts 2 and 3 will be based on your description and
+design of Part 1.</p>
+<p>Pick an application that you will enjoy working with, since
+you will be stuck with it for a substantial part of the semester! A
+suggestion is that you build a database about something that you are
+interested in --a hobby, a favorite web site, material from another
+course, a research project, etc. It's especially nice if you pick an
+application where you can populate your database using real, as opposed
+to fabricated, data. As the project progresses, you'll end up creating
+a database of at least dozens of entities/relationships. If you have an
+application where you can get a large amount
+of real data to populate your database, all the better, but it's not
+necessary.</p><h3>Overview of Part 1 of Project 1</h3>
+<p>For <strong>Part 1</strong> of this project,
+which you should
+submit <strong>in hard copy</strong>, you should include <b>3
+items</b>:</p>
+<ol>
+<li><b>(Required) Detailed description of your
+application: </b>You will describe the
+general "domain" of your application, construct an
+Entity-Relationship diagram for the database, and map it to a
+relational schema using the mapping technique that we will cover in
+class. <br>
+<br>
+Try to pick an application with a schema that is relatively
+substantial, but not too large. As general guidelines:<br>
+&nbsp;
+<ul>
+<li>If you are doing the project in a team of two (which
+should be the general case), your E/R design should have around seven
+entity sets and a similar number of relationship sets. This is a
+ballpark figure only: something in the 5-to-10 range should be fine.
+You will get a sense if your design is too simple or too complex.
+Please talk with a TA <strong>during office hours</strong>
+if you are in doubt about this. </li>
+<li>If you are doing the project by yourself (you need
+explicit permission; see above), your E/R design should have around
+five entity sets and a similar number of relationship sets. This is a
+ballpark figure only: something in the 3-to-7 range should be fine. You
+will get a sense if your design is too simple or too complex. Please
+talk with a TA <strong>during office hours</strong> if you
+are in doubt about this.</li>
+</ul>
+<p>Try to make your application interesting, including a
+variety
+of different kinds of attribute domains (e.g., strings, integers,
+etc.) and relationships (i.e., with different key and
+participation constraints). It is important that you include as
+many relevant constraints for your application from the real
+world as possible in your E/R diagram.<br>
+&nbsp;</p>
+</li>
+<li><b>(Required) Your choice for Part 3 of the project: </b>As
+part of your Part 1 submission, you need to specify whether you will
+follow the <b>Web Front-End Option </b> (Option 3.a) or
+the <b>Expanded-Design Option</b> (Option 3.b) for Part 3
+of the project (see above).<br>
+&nbsp;
+<ul>
+<li>If you will follow the Web Front-End Option, then you
+should simply say so with your Part 1 submission. In this case, you do
+not need to include any additional information regarding Part 3 with
+your Part 1 submission.</li>
+<li>If you will follow the Expanded-Design Option <b>or
+if you are not sure at this point</b>, then you should state this
+in your Part 1 submission, as well as <b>specify how you will
+expand your design in Part 3</b>. The expansion of your project
+in Part 3 should augment your project --in terms of the number of
+entity sets, relationship sets, and overall "complexity" of the
+design-- <b>roughly by an additional 50%</b>. This
+expansion should be substantial: rather than just adding a few entity
+sets and relationship sets that are overly similar to those in Part 1
+of the project, you are expected to add a truly novel and significant
+component to your database. (See below for more guidelines.)</li>
+</ul>
+<p>If you state in Part 1 that you will follow the
+Expanded-Design Option, it is OK for you to change your mind and decide
+to follow the Web Front-End Option later, when we announce Part 3 of
+the project; however, if you do <b> not</b> submit a plan
+for the Expanded-Design Option when you submit Part 1 of the project,
+then you will have no choice and you will have to follow the Web
+Front-End Option; we will make <b>no exceptions</b> to
+this rule.<br>
+&nbsp;</p>
+</li>
+<li><strong>(Optional but strongly recommended)
+Contingency plan for two-person teams: </strong>Since
+students do occasionally drop classes, and to prevent last-minute
+surprises, we suggest that you also include in your submission a <strong>"contingency
+plan"</strong> for the unfortunate case in which one of the
+team-mates drops the class later in the semester. This
+contingency plan should indicate how you will "downgrade"
+the project to a simpler one in such a case <b>--including in
+Part 3, if you follow the Expanded-Design Option--</b>, so that
+it is
+appropriate for a single person to complete. (See guidelines for
+single-person projects above.) If your team-mate drops the class,
+rather than finding a new team-mate to complete the project,
+which is problematic for a number of reasons, you will complete
+the "downgraded" version of your original project.
+Including such a contingency plan is <strong>optional</strong>,
+but if you choose not to submit it when you submit Part 1 and
+your team-mate drops the class later, you will have to complete
+the original project as planned, and <strong>no exceptions</strong>
+will be made at that point.</li>
+</ol>
+<h3><a name="What_you_need_to_do_for_Part_1"></a>What you need to do for Part 1</h3>
+<ol>
+<li>Find a <strong>team-mate.</strong> There's no
+need to notify us of this; you will simply indicate who your team-mate
+is when you submit Part 1. </li>
+<li>If you will do the project on <b>Unix</b>
+machines, get a <strong>CS account</strong> if neither you
+nor your team-mate has one.</li>
+<li>Decide on an application for your project and:<br>
+&nbsp;
+<ul>
+<li><strong>Write a relatively informal,
+one-paragraph description of the application</strong><b>,
+not to exceed 20 lines or so</b>, highlighting interesting and
+challenging parts. If you're having trouble thinking of an application,
+take a look at any web shopping site (e.g., <a href="http://www.amazon.com" target="_top">Amazon</a>).
+They all have a similar theme: products, customers, orders, shopping
+baskets, etc., and typically make for an interesting and appropriately
+sized application. (You can ignore all "security"-related issues (e.g.,
+user authentication, encryption) in your application.) The more
+concrete your written description, the more efficient and useful the
+meeting with the class staff will be (see below). This paragraph should
+include:
+<ol start="1" type="a">
+<li>A high-level description of the general domain of
+the application. If you will follow the Web Front-End Option for Part
+3, you should also provide specific details as to how users will
+interact with it. For example, if your application is somehow inspired
+in the <a href="http://www.imdb.com/" target="_top">Internet
+Movie Database</a>, your description should describe the general
+"entities" that are involved, plus explain that your application might
+ask users for a movie title and return as a result the actors in the
+movie; you might also let users store in the database the fact that
+they liked certain movies and disliked others; finally, given a userid,
+your application might give recommendations on the movies that the user
+might like, given the user's previously recorded preferences, according
+to some simple "recommendation" algorithm.</li>
+<li>An idea of what entities and relationship sets you
+will have, including attributes and constraints. You don't need to have
+your design completely finalized, though, but of course it will help if
+you bring to the meeting at least a <b>preliminary
+entity/relationship diagram</b>, so we encourage you to do so.</li>
+<li>An idea of <b>what data you will use</b>
+to populate your database later on.<br>
+&nbsp;</li>
+</ol>
+</li>
+<li>If you will follow the <b>Expanded-Design Option</b>
+for Part 3 of the project, <b>write a relatively informal,
+one-paragraph description of how you will expand your design in Part 3,
+not to exceed 20 lines or so</b>. As discussed above, the
+expansion of your project in Part 3 should augment your project --in
+terms of the number of entity sets, relationship sets, and overall
+"complexity" of the design-- roughly by 50%. As discussed above, this
+expansion should be substantial: rather than just adding a few entity
+sets and relationship sets that are overly similar to those in Part 1
+of the project, you are expected to add a truly novel and significant
+component to your database (following the above "50% increase in
+complexity" guidelines). For example, if your Part 1 database follows
+some variant of the Amazon web shopping site, a substantial expansion
+for Part 3 could be the addition of a sophisticated "subsystem" for
+product reviews and ratings, as well as for allowing users to vote on
+the usefulness of the reviews from other customers, etc. If you will
+follow the <b>Web Front-End Option</b> in Part 3, then you
+do not need to write anything for Part 3 at this point.<br>
+&nbsp;</li>
+<li><b>Write a short description of your contingency
+plan</b> (see above).<br>
+&nbsp;</li>
+</ul>
+</li>
+<li><strong>Meet with a TA on Monday June 3 - Tuesday June 4</strong><b> </b>to
+discuss your design and make sure that it is appropriate (i.e.,
+challenging enough, but not unrealistically so). <strong>This
+meeting is required </strong>and should last <strong>about
+five minutes. </strong>Your grade for Part 1 will be decreased
+substantially if you don't meet with any of the class staff. We will
+have <strong>expanded office hours</strong> during that
+week that you will be able to see on the class website. Please show up early in the week to minimize delays. We will <strong>not
+</strong>be taking appointments, so please show up directly
+during office hours. <font color="#ff0000"><b>Both
+team members should attend the meeting, at the same time.</b></font>
+<strong>For this meeting, bring the written materials
+described in the previous point (i.e., in item (3)).</strong> </li>
+<li>After a TA has OKed your general application, your plans
+for Part 3, and your contingency plan, modify your description based on
+the feedback that you were given, and write an <strong>E/R
+diagram</strong> (following the syntax that we saw in class) of
+your database, specifying as many of the real-world constraints for
+your application as possible. <b><br>
+<br>
+Important note if you follow the Expanded-Design Option for Part 3:</b>
+in Part 1, you do not need to write or submit an E/R diagram for your
+Part 3 expanded design; instead, you should just submit the
+one-paragraph description of your expansion plans for Part 3, which you
+should have brought to the meeting with a TA and <b>gotten
+approved during the meeting</b>. You will do the E/R diagram,
+etc. for Part 3, later in the semester.<br>
+&nbsp;</li>
+<li>Using the methods that we will have covered in class, map
+your E/R diagram into a <strong>relational schema in SQL</strong>,
+capturing as many of the E/R constraints (e.g., key and participation
+constraints) as possible. </li>
+<li>Submit a <strong>hard copy</strong> of <strong>(a)</strong>
+your one-paragraph description of the application (which you should
+have revised based on the feedback from your meeting with one of the
+class staff), <strong>(b)</strong> your E/R diagram, <strong>(c)
+</strong>your resulting SQL schema, <b>(d) </b>your
+one-paragraph description of your expansion plans for Part 3, if you
+are following the Expanded-Design Option (which you should have revised
+based on the feedback from your meeting with one of the class staff),
+and <b>(e)</b> your contingency plan (again, revised as
+appropriate based on your meeting with one of the class staff). You
+should submit all these materials at the beginning of class <strong>(</strong><b>1:10pm
+for Section 1, 4:10pm for Section 2</b><strong>) on
+Wednesday February </strong><span style="font-weight: bold;">20</span>.</li>
+<li><strong>Keep a copy</strong> of all these
+materials for yourselves, since you will need them for Parts 2 and 3 of
+the project.</li>
+</ol>
+<p><b><u>Important note:</u> </b>Try
+to <b>meet with a TA as early as possible</b><strong></strong>.&nbsp;</p>
+<h3><a name="Grading_for_Part_1"></a>Grading for Part 1</h3>
+<p>Your grade for Part 1 of Project 1 will be split as follows:</p>
+<ol>
+<li><strong>Meeting with class staff: 7 points.</strong><br>
+If you come to the meeting prepared with your written description as
+specified in items (3) and (4) above, you can expect to get all points,
+even if you are asked to make changes or revisions to your proposal.</li>
+<li><strong>Quality of final one-paragraph description of
+your application: 6 points.</strong><br>
+We will evaluate the overall quality of your final hard-copy
+one-paragraph description of your application, especially in terms of
+how thoroughly you incorporated any revisions suggested during your
+meeting with the class staff.</li>
+<li><strong>Quality of E/R diagram: 6 points.</strong><br>
+We will evaluate how well your E/R diagram models your proposed
+application, including how well you modeled any relevant real-world
+constraints.</li>
+<li><strong>Quality of your SQL schema: 6 points.</strong><br>
+We will evaluate how well you mapped your E/R diagram, including
+constraints, into a SQL schema using the technique that we covered in
+class.</li>
+</ol>
+<h3><a name="faq">Frequently-asked questions</a></h3>
+<ul>
+<li><strong>Q: I have a really cool idea for Project 1,
+but in order to implement it I would have to work alone. Can I?<br>
+A: </strong>Unfortunately this is not a "compelling" enough
+reason for a one-person team. Please modify your project idea so that
+it becomes appropriate for a two-person team.</li>
+<li><strong>Q: Can my team have 3 (or 4, or 12) students
+for Project 1?<br>
+A: </strong>No, your team has to have exactly two students
+(unless you get explicit permission from the instructor for a
+one-person team; see above).</li>
+<li><strong>Q:</strong> <strong>Why use
+Oracle for Parts 2 and 3 of Project 1? Can I use my favorite DBMS
+instead?</strong><br>
+<strong>A: </strong>As much as we would like to be
+more flexible, we just don't have the staff to handle several diverse
+systems and platforms. Unfortunately, you cannot use any other DBMS.</li>
+<li><strong>Q: Can I use&nbsp;some other programming language
+other than PHP or Java for the Part 3 Web Front-End Option of Project
+1?<br>
+A: </strong>Please see the answer to the previous question.</li>
+</ul>
+<hr>
+</body></html>
